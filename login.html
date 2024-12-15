@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Login & Registration Form | Codehal</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="form-wrapper sign-in">
+        <h2>Login</h2>
+        <div class="input-group">
+          <input type="text" name="username" required>
+          <label for="username">Username</label>
+        </div>
+        <div class="input-group">
+          <input type="password" name="password" required>
+          <label for="password">Password</label>
+        </div>
+        <div class="remember">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+        <button type="submit" id="loginButton">Login</button>
+        <div class="signUp-link">
+          <p>Don't have an account? <a href="#" class="signUpBtn-link">Sign Up</a></p>
+        </div>
+    </div>
+
+    <div class="form-wrapper sign-up">
+        <h2>Sign Up</h2>
+        <div class="input-group">
+          <input type="text" name="username" required>
+          <label for="username">Username</label>
+        </div>
+        <div class="input-group">
+          <input type="email" name="email" required>
+          <label for="email">Email</label>
+        </div>
+        <div class="input-group">
+          <input type="password" name="password" required>
+          <label for="password">Password</label>
+        </div>
+        <div class="remember">
+          <label><input type="checkbox" required> I agree to the terms & conditions</label>
+        </div>
+        <button type="submit" id="signUpButton">Sign Up</button>
+        <div class="signUp-link">
+          <p>Already have an account? <a href="#" class="signInBtn-link">Sign In</a></p>
+        </div>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
